@@ -1,0 +1,24 @@
+# Build output
+target/
+
+# IDE
+nbproject/private/
+.idea/
+*.iml
+.vscode/
+.github/modernize/
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Office temp/lock files
+~$*
+
+# Local-only helper scripts and old docs
+step1_inspect.ps1
+powershell.bat
+Mini Project Report_SDLII.docx
+image.png
+verify_all.ps1
