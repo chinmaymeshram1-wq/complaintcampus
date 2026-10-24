@@ -193,6 +193,7 @@ tr:hover td { background: #faf6ea; }
 .empty-state-desc { font-weight: 400; }
 .profile-card { background: var(--card); border: 1px solid var(--ink); border-radius: 4px; box-shadow: 6px 6px 0 var(--green); }
 .profile-header-banner { background: var(--green); background-image: repeating-linear-gradient(135deg, transparent 0 14px, #ffffff0d 14px 15px); animation: none; }
+.profile-header-banner h2 { color: #fff; }
 .profile-avatar-circle { background: var(--paper); color: var(--green); border: 3px solid var(--gold); font-family: var(--font-head); font-weight: 600; border-radius: 50%; }
 .profile-item { background: var(--paper); border: 1px solid var(--line); border-radius: 3px; }
 .profile-label { font-weight: 600; letter-spacing: .12em; }

@@ -3,6 +3,8 @@
 > **Enterprise Java (Jakarta EE 10) Full-Stack Web Application**  
 > Developed for Academic Evaluation and NetBeans IDE Integration
 
+![CampusCare admin dashboard](Report_Assets/screenshots/10_admin_dashboard.png)
+
 ---
 
 ## 1. Project Overview
@@ -38,6 +40,46 @@ The application adheres strictly to **Jakarta EE / Enterprise Java specification
 - **Staff Assignment**: Route pending complaints to designated staff with optional priority escalation.
 - **Department Management**: View departments, track staff/complaint counts, and register new departments.
 - **User Directory**: Browse registered students and staff directory.
+
+---
+
+## Screenshots
+
+### Sign in & Registration
+
+| Login | Student Registration | Staff Registration |
+|---|---|---|
+| <img src="Report_Assets/screenshots/01_login.png" alt="Login" width="100%"> | <img src="Report_Assets/screenshots/02_register.png" alt="Student Registration" width="100%"> | <img src="Report_Assets/screenshots/03_register_staff.png" alt="Staff Registration" width="100%"> |
+
+### Student Portal
+
+| Dashboard | Submit Complaint | My Complaints |
+|---|---|---|
+| <img src="Report_Assets/screenshots/04_student_dashboard.png" alt="Dashboard" width="100%"> | <img src="Report_Assets/screenshots/05_submit_complaint.png" alt="Submit Complaint" width="100%"> | <img src="Report_Assets/screenshots/06_my_complaints.png" alt="My Complaints" width="100%"> |
+
+| Complaint Timeline | Notifications | Profile |
+|---|---|---|
+| <img src="Report_Assets/screenshots/07_complaint_timeline.png" alt="Complaint Timeline" width="100%"> | <img src="Report_Assets/screenshots/08_notifications.png" alt="Notifications" width="100%"> | <img src="Report_Assets/screenshots/09_student_profile.png" alt="Profile" width="100%"> |
+
+### Admin Portal
+
+| Dashboard | All Complaints | Assign Staff |
+|---|---|---|
+| <img src="Report_Assets/screenshots/10_admin_dashboard.png" alt="Dashboard" width="100%"> | <img src="Report_Assets/screenshots/11_admin_all_complaints.png" alt="All Complaints" width="100%"> | <img src="Report_Assets/screenshots/12_assign_modal.png" alt="Assign Staff" width="100%"> |
+
+| Departments | New Department | Staff Directory |
+|---|---|---|
+| <img src="Report_Assets/screenshots/13_departments.png" alt="Departments" width="100%"> | <img src="Report_Assets/screenshots/14_new_department_modal.png" alt="New Department" width="100%"> | <img src="Report_Assets/screenshots/15_staff_directory.png" alt="Staff Directory" width="100%"> |
+
+| Student Directory |
+|---|
+| <img src="Report_Assets/screenshots/16_student_directory.png" alt="Student Directory" width="100%"> |
+
+### Staff Portal
+
+| Dashboard | Assigned Complaints | Update Status |
+|---|---|---|
+| <img src="Report_Assets/screenshots/17_staff_dashboard.png" alt="Dashboard" width="100%"> | <img src="Report_Assets/screenshots/18_staff_assigned.png" alt="Assigned Complaints" width="100%"> | <img src="Report_Assets/screenshots/19_staff_update_modal.png" alt="Update Status" width="100%"> |
 
 ---
 
