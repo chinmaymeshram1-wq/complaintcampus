@@ -305,3 +305,27 @@ $env:JAVA_HOME = "C:\Users\CHINMAY\.gradle\jdks\eclipse_adoptium-17-amd64-window
 
 The application is accessible in the browser at:  
 **`http://localhost:8080/CampusCare/`**
+
+---
+
+## Cloud Deployment (Docker + Render + MySQL)
+
+The repository includes a `Dockerfile` that builds the WAR and runs it on GlassFish 7.0.18 with the JMS resources pre-configured. The MySQL datasource is created at container start from environment variables:
+
+| Variable | Example |
+|---|---|
+| `DB_HOST` | `mysql-xxxx.aivencloud.com` |
+| `DB_PORT` | `12345` |
+| `DB_NAME` | `defaultdb` |
+| `DB_USER` | `avnadmin` |
+| `DB_PASSWORD` | *(your database password)* |
+| `DB_SSL_MODE` | `REQUIRED` (use `DISABLED` for a local MySQL) |
+
+**Deploy on Render:** New → Blueprint → select this repository (uses `render.yaml`), then fill in the database variables. Tables and demo accounts are created automatically on first start.
+
+**Run locally with Docker:**
+
+```bash
+docker build -t complaintcampus .
+docker run -p 8080:8080 -e DB_HOST=host.docker.internal -e DB_USER=root -e DB_PASSWORD=yourpass -e DB_NAME=campuscare -e DB_SSL_MODE=DISABLED complaintcampus
+```
